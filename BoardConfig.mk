@@ -65,6 +65,7 @@ BOARD_VOLD_MAX_PARTITIONS := 24
 # Qualcomm hardware
 BOARD_USES_QCOM_HARDWARE := true
 COMMON_GLOBAL_CFLAGS += -DQCOM_HARDWARE
+COMMON_GLOBAL_CFLAGS += -DQCOM_BSP_LEGACY
 
 # Graphics
 BOARD_EGL_CFG := device/samsung/kylessopen/prebuilt/system/lib/egl/egl.cfg
